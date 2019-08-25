@@ -1,0 +1,143 @@
+:root {
+  --tan: #FDFCF9;
+  --milk-chocolate: #423629;
+  --dark-chocolate: #241E17;
+}
+html {
+    -webkit-locale: "en";
+}
+html, body {
+    min-width: 290px;
+    background-color: var(--dark-chocolate);
+    font-family: "Open Sans", Arial, sans-serif;
+    line-height: 1.5;
+}
+nav {
+    display: block;
+}
+@media (min-width: 400px) {
+#navbar {
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: rgba(0, 22, 22, 0.4);
+  }
+}
+header {
+    display: block;
+}
+#header {
+    color: white;
+    margin: 10px;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'EB Garamond', serif; 
+    text-decoration: underline;
+    font-weight: thick;
+    letter-spacing: 1.1px;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+#navbar li {
+    border-top: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+#navbar a {
+    display: block;
+    padding: 5px 25px;
+    color: #4c4f52;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: em;
+}
+.nav-link:hover {
+  color: var(--tan);
+  background-color: var(--milk-chocolate);
+}
+main {
+    display: block;
+}
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+section {
+    display: block;
+}
+#main-doc header {
+    text-align: left;
+    margin: 0px;
+    text-decoration: none;
+    color: #ffffff
+}
+@media (min-width: 800px) {
+section article {
+    color: #03A4B6;
+    margin: 15px;
+    font-size: 0.96em;
+  }
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+section li {
+    margin: 15px 0px 0px 20px;
+}
+code {
+    display: block;
+    color: black;
+    text-align: left;
+    white-space: pre;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2.3;
+    background-color: #FFD0A6;
+    padding: 10px 160px;
+    margin: 5px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+ul ul {
+    list-style-type: square;
+}
+
+
+
+
+
+
